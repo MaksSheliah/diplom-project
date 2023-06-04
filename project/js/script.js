@@ -20,7 +20,7 @@ $(document).ready(function() {
          map: Map,
          draggable: true,
          animation: google.maps.Animation.DROP,
-         icon: '../image/map.png'
+         icon: './image/map.png'
        });
       marker.addListener('click', toggleBounce);
      });
